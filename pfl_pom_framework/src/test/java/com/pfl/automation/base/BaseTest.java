@@ -115,10 +115,10 @@ public class BaseTest {
 	
 	//****************************TestNG Annotations For all Test Cases****************************
 	@BeforeTest
-	@Parameters(value={"browser"})
-	public void setUp(String browser) throws Exception {
+	//@Parameters(value={"browser"})
+	public void setUp() throws Exception {
 		callBasicConfigFiles();
-		initBrowser(browser);
+		initBrowser();
 		
 		//testngBrowserlaunch(browserName);
 		loginPage = new LoginPage(driver);
@@ -343,18 +343,18 @@ public class BaseTest {
 		log4j_config();
 	}
 	
-	public void initBrowser(String browser) throws FileNotFoundException, IOException, DocumentException {
+	public void initBrowser() throws FileNotFoundException, IOException, DocumentException {
 		if (!Constants.GRID_RUN) {
 			//Local Machine
 			openBrowserNormal();
 		} else {
 			//Grid Machines
-			openBrowserGrid(browser);
+			openBrowserGrid();
 		}
 	}
 	
-	public void openBrowserGrid(String browser) throws FileNotFoundException, IOException, DocumentException {
-		//String browser = prop.getProperty("browser");
+	public void openBrowserGrid() throws FileNotFoundException, IOException, DocumentException {
+		String browser = prop.getProperty("browser");
 		DesiredCapabilities cap = null;
 		
 		if (browser.equals("firefox")) {
@@ -476,7 +476,6 @@ public class BaseTest {
 			Log.info("IE browser initilized Successfully");
 		} else if (browserName.equals("chromeheadless")) {
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--headless");
 			chromeOptions.addArguments("--headless");
 			chromeOptions.addArguments("--no-sandbox");
 			chromeOptions.addArguments("--disable-gpu");
