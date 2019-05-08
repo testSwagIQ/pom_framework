@@ -1,0 +1,1 @@
+java -jar C:\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\node1.json

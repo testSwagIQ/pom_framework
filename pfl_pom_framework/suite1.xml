@@ -1,0 +1,8 @@
+<suite name="Suite1" parallel="false">
+  <test name="Suite1Tests">
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS11_advance_search_functionality"/>
+      <class name="com.pfl.automation.org62.testcases.TS14_StandardAccessType"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+        <listener class-name="com.pfl.automation.report.ExtentReporterNG"/>
+        <listener class-name="com.pfl.automation.report.CustomTestNGReporter"/>
+        <listener class-name="com.pfl.automation.utils.reruntest.RetryListener"/>
+        <listener class-name="com.pfl.automation.utils.reruntest.TestListener"/>
+    </listeners>
+  <test name="Test">
+  	<parameter name="browser" value="chrome"/>
+    <classes> 
+      <class name="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

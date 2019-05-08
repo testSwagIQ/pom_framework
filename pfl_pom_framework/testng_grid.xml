@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="true">
+	<listeners>
+        <listener class-name="com.pfl.automation.report.ExtentReporterNG"/>
+        <listener class-name="com.pfl.automation.report.CustomTestNGReporter"/>
+    </listeners>
+    <test name="Test_Run2-11">
+    	<parameter name="browser" value="chrome"/>
+	    <classes>
+	       <class name="com.pfl.automation.org62.testcases.TS02_Administration_verify_program"/>
+      		<class name="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account"/>
+      		<class name="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated"/>
+      	    <class name="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product"/>
+      	    <class name="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program"/>
+      	    <class name="com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation"/>
+      	    <class name="com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign"/>
+      		<class name="com.pfl.automation.org62.testcases.TS11_advance_search_functionality"/>
+	    </classes>
+	</test>
+
+  	<test name="Test_Run12-25">
+  		<parameter name="browser" value="chrome"/>
+	    <classes>
+     		<class name="com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox"/>
+      		<class name="com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration"/>
+      		<class name="com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error"/>
+      		<class name="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address"/>
+      		<class name="com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag"/>
+      		<class name="com.pfl.automation.org62.testcases.TS_22_product_verify_active_inactive_state"/>
+      		<class name="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store"/>
+      		<class name="com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search"/>  
+	    </classes>
+  </test>
+</suite> <!-- Suite -->

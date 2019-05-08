@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Test\Google Drive\pfl_pom_framework\testng_local.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">17 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 6 failed,  1 skipped,  28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program" hash-for-method="TS06_01_verifying_send_swag_with_campaign_association">TS06_01_verifying_send_swag_with_campaign_association</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program" hash-for-method="TS06_DataSet_Reset">TS06_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS11_advance_search_functionality" hash-for-method="TS11_02_Verify_simple_search_and_advance_search_on_license_page">TS11_02_Verify_simple_search_and_advance_search_on_license_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag" hash-for-method="TS21_01_Verifying_the_activation_of_program_by_sending_swag">TS21_01_Verifying_the_activation_of_program_by_sending_swag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag" hash-for-method="TS21_02_Verifying_the_deactivation_of_program_by_sending_swag">TS21_02_Verifying_the_deactivation_of_program_by_sending_swag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation" hash-for-method="program_error_validation">program_error_validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag" hash-for-method="TS21_DataSet_Reset">TS21_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS02_Administration_verify_program" hash-for-method="TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user">TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag" hash-for-method="TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact">TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account" hash-for-method="TS03_01_verifying_contact_address_send_swag">TS03_01_verifying_contact_address_send_swag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account" hash-for-method="TS03_02_verifying_account_address_end_swag">TS03_02_verifying_account_address_end_swag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account" hash-for-method="TS03_DataReset">TS03_DataReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account" hash-for-method="TS03_DataSet_Creation">TS03_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated" hash-for-method="TS04_1_verifying_send_swag_with_campaign_association">TS04_1_verifying_send_swag_with_campaign_association</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated" hash-for-method="TS04_DataSet_Creation">TS04_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated" hash-for-method="TS04_DataSet_Reset">TS04_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product" hash-for-method="TS05_01_verifying_send_swag_with_campaign_association">TS05_01_verifying_send_swag_with_campaign_association</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product" hash-for-method="TS05_DataSet_Creation">TS05_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product" hash-for-method="TS05_DataSet_Reset">TS05_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program" hash-for-method="TS06_DataSet_Creation">TS06_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS11_advance_search_functionality" hash-for-method="TS11_01_Verify_license_page">TS11_01_Verify_license_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox" hash-for-method="TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality">TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag" hash-for-method="TS21_DataSet_Creation">TS21_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store" hash-for-method="TS23_01_Verifying_the_remove_user_into_the_Store">TS23_01_Verifying_the_remove_user_into_the_Store</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store" hash-for-method="TS23_DataSet_Creation">TS23_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store" hash-for-method="TS23_DataSet_Reset">TS23_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search" hash-for-method="TS25_01_Verifying_the_advanced_search_functionality">TS25_01_Verifying_the_advanced_search_functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign" hash-for-method="TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab">TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign" hash-for-method="TS_08_DataReset">TS_08_DataReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration" hash-for-method="TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration">TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error" hash-for-method="TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen">TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address" hash-for-method="TS_16_01_Contact_length_validation_on_custom_address">TS_16_01_Contact_length_validation_on_custom_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address" hash-for-method="TS_16_DataSet_Creation">TS_16_DataSet_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address" hash-for-method="TS_16_DataSet_Reset">TS_16_DataSet_Reset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message" hash-for-method="TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen">TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS11_advance_search_functionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS11_02_Verify_simple_search_and_advance_search_on_license_page">
+                  </a> <!-- TS11_02_Verify_simple_search_and_advance_search_on_license_page -->
+                  <span class="method-name">TS11_02_Verify_simple_search_and_advance_search_on_license_page</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [user_4, Automation] but found [  user_4, Automation]
+	at com.pfl.automation.org62.pages.LicensePage.getNameText(LicensePage.java:92)
+	at com.pfl.automation.org62.testcases.TS11_advance_search_functionality.TS11_02_Verify_simple_search_and_advance_search_on_license_page(TS11_advance_search_functionality.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS06_Administration_role_based_program</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS06_01_verifying_send_swag_with_campaign_association">
+                  </a> <!-- TS06_01_verifying_send_swag_with_campaign_association -->
+                  <span class="method-name">TS06_01_verifying_send_swag_with_campaign_association</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),&apos;You will receive a follow-up task once it has been delivered&apos;)] (tried for 50 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+	at com.pfl.automation.base.BasePage.isElementVisible(BasePage.java:297)
+	at com.pfl.automation.org62.pages.SwagIQPage.order_confirmation_msg(SwagIQPage.java:82)
+	at com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_01_verifying_send_swag_with_campaign_association(TS06_Administration_role_based_program.java:50)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;You will receive a follow-up task once it has been delivered&apos;)]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;You will receive a follow-up task once it has been delivered&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS06_DataSet_Reset">
+                  </a> <!-- TS06_DataSet_Reset -->
+                  <span class="method-name">TS06_DataSet_Reset</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+*** Element info: {Using=xpath, value=//input[@type=&apos;email&apos;][@name=&apos;username&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+	at com.pfl.automation.base.BasePage.enterText(BasePage.java:235)
+	at com.pfl.automation.org62.pages.LoginPage.logintoapplication(LoginPage.java:62)
+	at com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_DataSet_Reset(TS06_Administration_role_based_program.java:57)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS21_01_Verifying_the_activation_of_program_by_sending_swag">
+                  </a> <!-- TS21_01_Verifying_the_activation_of_program_by_sending_swag -->
+                  <span class="method-name">TS21_01_Verifying_the_activation_of_program_by_sending_swag</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[contains(text(), &apos;Enable-disable_auto_program1557300755219&apos;)]/ancestor::div[@class = &apos;box-title&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//label[contains(text(), &apos;Enable-disable_auto_program1557300755219&apos;)]/ancestor::div[@class = &apos;box-title&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pfl.automation.org62.pages.SalesforcePage.click_program_on_send_swag_screen(SalesforcePage.java:220)
+	at com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_01_Verifying_the_activation_of_program_by_sending_swag(TS21_Enable_Disable_State_Of_Program_On_Send_Swag.java:45)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS21_02_Verifying_the_deactivation_of_program_by_sending_swag">
+                  </a> <!-- TS21_02_Verifying_the_deactivation_of_program_by_sending_swag -->
+                  <span class="method-name">TS21_02_Verifying_the_deactivation_of_program_by_sending_swag</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//input[@type=&apos;email&apos;][@name=&apos;username&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+	at com.pfl.automation.base.BasePage.enterText(BasePage.java:235)
+	at com.pfl.automation.org62.pages.LoginPage.logintoapplication(LoginPage.java:62)
+	at com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_02_Verifying_the_deactivation_of_program_by_sending_swag(TS21_Enable_Disable_State_Of_Program_On_Send_Swag.java:56)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="program_error_validation">
+                  </a> <!-- program_error_validation -->
+                  <span class="method-name">program_error_validation</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;i class=&quot;far fa-sync-alt text-success&quot;&gt;&lt;/i&gt; is not clickable at point (638, 275). Other element would receive the click: &lt;div ng-show=&quot;message.visible&quot; class=&quot;overlay overlay-white&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50804}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 8a9dc8fe75dda5f0aeb6a25a5f6d65b6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.pfl.automation.org62.pages.AdminPage.set_user_budget(AdminPage.java:302)
+	at com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation.program_error_validation(TS07_Administration_program_error_validation.java:44)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS21_DataSet_Reset">
+                  </a> <!-- TS21_DataSet_Reset -->
+                  <span class="method-name">TS21_DataSet_Reset</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PFL-TEST&apos;, ip: &apos;172.16.25.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+	at com.pfl.automation.org62.pages.HomePage.logout(HomePage.java:26)
+	at com.pfl.automation.base.BaseTest.Logout(BaseTest.java:147)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration">
+                  </a> <!-- TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration -->
+                  <span class="method-name">TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab">
+                  </a> <!-- TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab -->
+                  <span class="method-name">TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_08_DataReset">
+                  </a> <!-- TS_08_DataReset -->
+                  <span class="method-name">TS_08_DataReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS04_1_verifying_send_swag_with_campaign_association">
+                  </a> <!-- TS04_1_verifying_send_swag_with_campaign_association -->
+                  <span class="method-name">TS04_1_verifying_send_swag_with_campaign_association</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS04_DataSet_Creation">
+                  </a> <!-- TS04_DataSet_Creation -->
+                  <span class="method-name">TS04_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS04_DataSet_Reset">
+                  </a> <!-- TS04_DataSet_Reset -->
+                  <span class="method-name">TS04_DataSet_Reset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen">
+                  </a> <!-- TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen -->
+                  <span class="method-name">TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS06_Administration_role_based_program</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS06_DataSet_Creation">
+                  </a> <!-- TS06_DataSet_Creation -->
+                  <span class="method-name">TS06_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen">
+                  </a> <!-- TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen -->
+                  <span class="method-name">TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality">
+                  </a> <!-- TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality -->
+                  <span class="method-name">TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS23_01_Verifying_the_remove_user_into_the_Store">
+                  </a> <!-- TS23_01_Verifying_the_remove_user_into_the_Store -->
+                  <span class="method-name">TS23_01_Verifying_the_remove_user_into_the_Store</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS23_DataSet_Creation">
+                  </a> <!-- TS23_DataSet_Creation -->
+                  <span class="method-name">TS23_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS23_DataSet_Reset">
+                  </a> <!-- TS23_DataSet_Reset -->
+                  <span class="method-name">TS23_DataSet_Reset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS11_advance_search_functionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS11_01_Verify_license_page">
+                  </a> <!-- TS11_01_Verify_license_page -->
+                  <span class="method-name">TS11_01_Verify_license_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_16_01_Contact_length_validation_on_custom_address">
+                  </a> <!-- TS_16_01_Contact_length_validation_on_custom_address -->
+                  <span class="method-name">TS_16_01_Contact_length_validation_on_custom_address</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_16_DataSet_Creation">
+                  </a> <!-- TS_16_DataSet_Creation -->
+                  <span class="method-name">TS_16_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS_16_DataSet_Reset">
+                  </a> <!-- TS_16_DataSet_Reset -->
+                  <span class="method-name">TS_16_DataSet_Reset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact">
+                  </a> <!-- TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact -->
+                  <span class="method-name">TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS05_01_verifying_send_swag_with_campaign_association">
+                  </a> <!-- TS05_01_verifying_send_swag_with_campaign_association -->
+                  <span class="method-name">TS05_01_verifying_send_swag_with_campaign_association</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS05_DataSet_Creation">
+                  </a> <!-- TS05_DataSet_Creation -->
+                  <span class="method-name">TS05_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS05_DataSet_Reset">
+                  </a> <!-- TS05_DataSet_Reset -->
+                  <span class="method-name">TS05_DataSet_Reset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS25_01_Verifying_the_advanced_search_functionality">
+                  </a> <!-- TS25_01_Verifying_the_advanced_search_functionality -->
+                  <span class="method-name">TS25_01_Verifying_the_advanced_search_functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS03_01_verifying_contact_address_send_swag">
+                  </a> <!-- TS03_01_verifying_contact_address_send_swag -->
+                  <span class="method-name">TS03_01_verifying_contact_address_send_swag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS03_02_verifying_account_address_end_swag">
+                  </a> <!-- TS03_02_verifying_account_address_end_swag -->
+                  <span class="method-name">TS03_02_verifying_account_address_end_swag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS03_DataReset">
+                  </a> <!-- TS03_DataReset -->
+                  <span class="method-name">TS03_DataReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS03_DataSet_Creation">
+                  </a> <!-- TS03_DataSet_Creation -->
+                  <span class="method-name">TS03_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS21_DataSet_Creation">
+                  </a> <!-- TS21_DataSet_Creation -->
+                  <span class="method-name">TS21_DataSet_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pfl.automation.org62.testcases.TS02_Administration_verify_program</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user">
+                  </a> <!-- TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user -->
+                  <span class="method-name">TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Test\Google Drive\pfl_pom_framework\testng_local.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.pfl.automation.report.ExtentReporterNG&quot;/&gt;
+    &lt;listener class-name=&quot;com.pfl.automation.report.CustomTestNGReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS02_Administration_verify_program&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase5&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase6&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS06_Administration_role_based_program&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase7&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase7 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase8&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase8 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase11&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS11_advance_search_functionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase11 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase12&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase12 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase13&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase13 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase15&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase15 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase16&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase16 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase17&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase17 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase20&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase20 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase21&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase21 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase23&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase23 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCase25&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCase25 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestCase2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase13 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase15 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase16 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase17 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase20 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase21 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase23 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCase25 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TS05_DataSet_Creation')
+data.setCell(0, 2, 'com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product')
+data.setCell(0, 3, 251383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen')
+data.setCell(1, 2, 'com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error')
+data.setCell(1, 3, 201001);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TS04_DataSet_Creation')
+data.setCell(2, 2, 'com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated')
+data.setCell(2, 3, 188700);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TS21_DataSet_Creation')
+data.setCell(3, 2, 'com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag')
+data.setCell(3, 3, 184467);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TS03_DataSet_Creation')
+data.setCell(4, 2, 'com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account')
+data.setCell(4, 3, 182039);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TS_16_DataSet_Creation')
+data.setCell(5, 2, 'com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address')
+data.setCell(5, 3, 181956);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TS06_DataSet_Creation')
+data.setCell(6, 2, 'com.pfl.automation.org62.testcases.TS06_Administration_role_based_program')
+data.setCell(6, 3, 165695);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'program_error_validation')
+data.setCell(7, 2, 'com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation')
+data.setCell(7, 3, 165323);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TS05_01_verifying_send_swag_with_campaign_association')
+data.setCell(8, 2, 'com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product')
+data.setCell(8, 3, 138107);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration')
+data.setCell(9, 2, 'com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration')
+data.setCell(9, 3, 128843);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TS_16_01_Contact_length_validation_on_custom_address')
+data.setCell(10, 2, 'com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address')
+data.setCell(10, 3, 125479);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TS06_01_verifying_send_swag_with_campaign_association')
+data.setCell(11, 2, 'com.pfl.automation.org62.testcases.TS06_Administration_role_based_program')
+data.setCell(11, 3, 120325);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TS23_DataSet_Creation')
+data.setCell(12, 2, 'com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store')
+data.setCell(12, 3, 108172);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TS03_01_verifying_contact_address_send_swag')
+data.setCell(13, 2, 'com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account')
+data.setCell(13, 3, 96410);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user')
+data.setCell(14, 2, 'com.pfl.automation.org62.testcases.TS02_Administration_verify_program')
+data.setCell(14, 3, 95468);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TS04_1_verifying_send_swag_with_campaign_association')
+data.setCell(15, 2, 'com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated')
+data.setCell(15, 3, 92968);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TS25_01_Verifying_the_advanced_search_functionality')
+data.setCell(16, 2, 'com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search')
+data.setCell(16, 3, 89618);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen')
+data.setCell(17, 2, 'com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message')
+data.setCell(17, 3, 89314);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact')
+data.setCell(18, 2, 'com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag')
+data.setCell(18, 3, 88459);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality')
+data.setCell(19, 2, 'com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox')
+data.setCell(19, 3, 84313);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab')
+data.setCell(20, 2, 'com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign')
+data.setCell(20, 3, 84167);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TS03_02_verifying_account_address_end_swag')
+data.setCell(21, 2, 'com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account')
+data.setCell(21, 3, 84034);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TS23_DataSet_Reset')
+data.setCell(22, 2, 'com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store')
+data.setCell(22, 3, 81902);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TS21_01_Verifying_the_activation_of_program_by_sending_swag')
+data.setCell(23, 2, 'com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag')
+data.setCell(23, 3, 66912);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TS05_DataSet_Reset')
+data.setCell(24, 2, 'com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product')
+data.setCell(24, 3, 61297);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TS03_DataReset')
+data.setCell(25, 2, 'com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account')
+data.setCell(25, 3, 60976);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TS04_DataSet_Reset')
+data.setCell(26, 2, 'com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated')
+data.setCell(26, 3, 59928);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TS_16_DataSet_Reset')
+data.setCell(27, 2, 'com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address')
+data.setCell(27, 3, 58953);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TS11_01_Verify_license_page')
+data.setCell(28, 2, 'com.pfl.automation.org62.testcases.TS11_advance_search_functionality')
+data.setCell(28, 3, 58669);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TS23_01_Verifying_the_remove_user_into_the_Store')
+data.setCell(29, 2, 'com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store')
+data.setCell(29, 3, 50237);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TS_08_DataReset')
+data.setCell(30, 2, 'com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign')
+data.setCell(30, 3, 44960);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TS11_02_Verify_simple_search_and_advance_search_on_license_page')
+data.setCell(31, 2, 'com.pfl.automation.org62.testcases.TS11_advance_search_functionality')
+data.setCell(31, 3, 42504);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TS21_02_Verifying_the_deactivation_of_program_by_sending_swag')
+data.setCell(32, 2, 'com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag')
+data.setCell(32, 3, 5031);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TS06_DataSet_Reset')
+data.setCell(33, 2, 'com.pfl.automation.org62.testcases.TS06_Administration_role_based_program')
+data.setCell(33, 3, 5030);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TS21_DataSet_Reset')
+data.setCell(34, 2, 'com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag')
+data.setCell(34, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 59 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS02_Administration_verify_program</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_u...)</span>
+                <span class="method-start">10188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user</span>
+                <span class="method-start">10189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_u...)</span>
+                <span class="method-start">105663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106101 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">106852 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS03_DataSet_Creation status=SUCCESS method=TS03_Verify_order_on_contact_and_accoun...)</span>
+                <span class="method-start">115465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS03_DataSet_Creation</span>
+                <span class="method-start">115465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS03_DataSet_Creation status=SUCCESS method=TS03_Verify_order_on_contact_and_accoun...)</span>
+                <span class="method-start">297519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS03_01_verifying_contact_address_send_swag status=SUCCESS method=TS03_Verify_order...)</span>
+                <span class="method-start">297971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS03_01_verifying_contact_address_send_swag</span>
+                <span class="method-start">297971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS03_01_verifying_contact_address_send_swag status=SUCCESS method=TS03_Verify_order...)</span>
+                <span class="method-start">394387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS03_02_verifying_account_address_end_swag status=SUCCESS method=TS03_Verify_order_...)</span>
+                <span class="method-start">394776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS03_02_verifying_account_address_end_swag</span>
+                <span class="method-start">394776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS03_02_verifying_account_address_end_swag status=SUCCESS method=TS03_Verify_order_...)</span>
+                <span class="method-start">478815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS03_DataReset status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_...)</span>
+                <span class="method-start">479203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS03_DataReset</span>
+                <span class="method-start">479203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS03_DataReset status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_...)</span>
+                <span class="method-start">540185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">540506 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">541324 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS04_DataSet_Creation status=SUCCESS method=TS04_Administration_Campaign_Associated...)</span>
+                <span class="method-start">549745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS04_DataSet_Creation</span>
+                <span class="method-start">549745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS04_DataSet_Creation status=SUCCESS method=TS04_Administration_Campaign_Associated...)</span>
+                <span class="method-start">738450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS04_1_verifying_send_swag_with_campaign_association status=SUCCESS method=TS04_Adm...)</span>
+                <span class="method-start">738765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS04_1_verifying_send_swag_with_campaign_association</span>
+                <span class="method-start">738765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS04_1_verifying_send_swag_with_campaign_association status=SUCCESS method=TS04_Adm...)</span>
+                <span class="method-start">831747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS04_DataSet_Reset status=SUCCESS method=TS04_Administration_Campaign_Associated.TS...)</span>
+                <span class="method-start">832087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS04_DataSet_Reset</span>
+                <span class="method-start">832087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS04_DataSet_Reset status=SUCCESS method=TS04_Administration_Campaign_Associated.TS...)</span>
+                <span class="method-start">892031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">892423 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">893199 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS05_DataSet_Creation status=SUCCESS method=TS05_Administration_Multiple_product.TS...)</span>
+                <span class="method-start">903368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS05_DataSet_Creation</span>
+                <span class="method-start">903368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS05_DataSet_Creation status=SUCCESS method=TS05_Administration_Multiple_product.TS...)</span>
+                <span class="method-start">1154756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS05_01_verifying_send_swag_with_campaign_association status=SUCCESS method=TS05_Ad...)</span>
+                <span class="method-start">1155144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS05_01_verifying_send_swag_with_campaign_association</span>
+                <span class="method-start">1155144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS05_01_verifying_send_swag_with_campaign_association status=SUCCESS method=TS05_Ad...)</span>
+                <span class="method-start">1293256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS05_DataSet_Reset status=SUCCESS method=TS05_Administration_Multiple_product.TS05_...)</span>
+                <span class="method-start">1293654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS05_DataSet_Reset</span>
+                <span class="method-start">1293654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS05_DataSet_Reset status=SUCCESS method=TS05_Administration_Multiple_product.TS05_...)</span>
+                <span class="method-start">1354966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1355380 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS06_Administration_role_based_program</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">1356152 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS06_DataSet_Creation status=SUCCESS method=TS06_Administration_role_based_program....)</span>
+                <span class="method-start">1364803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS06_DataSet_Creation</span>
+                <span class="method-start">1364804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS06_DataSet_Creation status=SUCCESS method=TS06_Administration_role_based_program....)</span>
+                <span class="method-start">1530512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS06_01_verifying_send_swag_with_campaign_association status=FAILURE method=TS06_Ad...)</span>
+                <span class="method-start">1530880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS06_01_verifying_send_swag_with_campaign_association</span>
+                <span class="method-start">1530880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS06_01_verifying_send_swag_with_campaign_association status=FAILURE method=TS06_Ad...)</span>
+                <span class="method-start">1651205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS06_DataSet_Reset status=FAILURE method=TS06_Administration_role_based_program.TS0...)</span>
+                <span class="method-start">1672959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS06_DataSet_Reset</span>
+                <span class="method-start">1672959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Logout([TestResult name=TS06_DataSet_Reset status=FAILURE method=TS06_Administration_role_based_program.TS0...)</span>
+                <span class="method-start">1677989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1677995 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">1678058 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=program_error_validation status=FAILURE method=TS07_Administration_program_error_va...)</span>
+                <span class="method-start">1685945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">program_error_validation</span>
+                <span class="method-start">1685945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1851270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Logout([TestResult name=program_error_validation status=FAILURE method=TS07_Administration_program_error_va...)</span>
+                <span class="method-start">1873380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">1873396 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab status=SUC...)</span>
+                <span class="method-start">1880611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab</span>
+                <span class="method-start">1880612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab status=SUC...)</span>
+                <span class="method-start">1964779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_08_DataReset status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assi...)</span>
+                <span class="method-start">1965162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_08_DataReset</span>
+                <span class="method-start">1965162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_08_DataReset status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assi...)</span>
+                <span class="method-start">2010123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2010393 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS11_advance_search_functionality</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2013400 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS11_01_Verify_license_page status=SUCCESS method=TS11_advance_search_functionality...)</span>
+                <span class="method-start">2021924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS11_01_Verify_license_page</span>
+                <span class="method-start">2021924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS11_01_Verify_license_page status=SUCCESS method=TS11_advance_search_functionality...)</span>
+                <span class="method-start">2080594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS11_02_Verify_simple_search_and_advance_search_on_license_page status=FAILURE meth...)</span>
+                <span class="method-start">2080911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS11_02_Verify_simple_search_and_advance_search_on_license_page</span>
+                <span class="method-start">2080911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS11_02_Verify_simple_search_and_advance_search_on_license_page status=FAILURE meth...)</span>
+                <span class="method-start">2123415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2145181 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2145338 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality ...)</span>
+                <span class="method-start">2153036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality</span>
+                <span class="method-start">2153036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality ...)</span>
+                <span class="method-start">2237350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2237703 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2238448 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Admini...)</span>
+                <span class="method-start">2247384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration</span>
+                <span class="method-start">2247384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Admini...)</span>
+                <span class="method-start">2376228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2376517 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2377266 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associat...)</span>
+                <span class="method-start">2385714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen</span>
+                <span class="method-start">2385714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associat...)</span>
+                <span class="method-start">2586715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2587020 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2590035 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_16_DataSet_Creation status=SUCCESS method=TS16_Contact_length_validation_on_cust...)</span>
+                <span class="method-start">2598038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_16_DataSet_Creation</span>
+                <span class="method-start">2598039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_16_DataSet_Creation status=SUCCESS method=TS16_Contact_length_validation_on_cust...)</span>
+                <span class="method-start">2780008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_16_01_Contact_length_validation_on_custom_address status=SUCCESS method=TS16_Con...)</span>
+                <span class="method-start">2780411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_16_01_Contact_length_validation_on_custom_address</span>
+                <span class="method-start">2780411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_16_01_Contact_length_validation_on_custom_address status=SUCCESS method=TS16_Con...)</span>
+                <span class="method-start">2905903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_16_DataSet_Reset status=SUCCESS method=TS16_Contact_length_validation_on_custom_...)</span>
+                <span class="method-start">2906275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_16_DataSet_Reset</span>
+                <span class="method-start">2906275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_16_DataSet_Reset status=SUCCESS method=TS16_Contact_length_validation_on_custom_...)</span>
+                <span class="method-start">2965229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2965551 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">2966295 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact status...)</span>
+                <span class="method-start">2974661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact</span>
+                <span class="method-start">2974661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact status...)</span>
+                <span class="method-start">3063122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3063454 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">3064164 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_...)</span>
+                <span class="method-start">3074172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen</span>
+                <span class="method-start">3074173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_...)</span>
+                <span class="method-start">3163487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3163954 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">3164722 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS21_DataSet_Creation status=SUCCESS method=TS21_Enable_Disable_State_Of_Program_On...)</span>
+                <span class="method-start">3173409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS21_DataSet_Creation</span>
+                <span class="method-start">3173409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS21_DataSet_Creation status=SUCCESS method=TS21_Enable_Disable_State_Of_Program_On...)</span>
+                <span class="method-start">3357889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS21_01_Verifying_the_activation_of_program_by_sending_swag status=FAILURE method=T...)</span>
+                <span class="method-start">3358242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS21_01_Verifying_the_activation_of_program_by_sending_swag</span>
+                <span class="method-start">3358242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS21_01_Verifying_the_activation_of_program_by_sending_swag status=FAILURE method=T...)</span>
+                <span class="method-start">3425154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS21_02_Verifying_the_deactivation_of_program_by_sending_swag status=FAILURE method...)</span>
+                <span class="method-start">3446946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS21_02_Verifying_the_deactivation_of_program_by_sending_swag</span>
+                <span class="method-start">3446946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Logout([TestResult name=TS21_02_Verifying_the_deactivation_of_program_by_sending_swag status=FAILURE method...)</span>
+                <span class="method-start">3451977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3451989 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">3452036 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS23_DataSet_Creation status=SUCCESS method=TS23_Administration_Verify_Remove_User_...)</span>
+                <span class="method-start">3459613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS23_DataSet_Creation</span>
+                <span class="method-start">3459613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS23_DataSet_Creation status=SUCCESS method=TS23_Administration_Verify_Remove_User_...)</span>
+                <span class="method-start">3567790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS23_01_Verifying_the_remove_user_into_the_Store status=SUCCESS method=TS23_Adminis...)</span>
+                <span class="method-start">3568180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS23_01_Verifying_the_remove_user_into_the_Store</span>
+                <span class="method-start">3568180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS23_01_Verifying_the_remove_user_into_the_Store status=SUCCESS method=TS23_Adminis...)</span>
+                <span class="method-start">3618421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS23_DataSet_Reset status=SUCCESS method=TS23_Administration_Verify_Remove_User_Fro...)</span>
+                <span class="method-start">3618878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS23_DataSet_Reset</span>
+                <span class="method-start">3618878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS23_DataSet_Reset status=SUCCESS method=TS23_Administration_Verify_Remove_User_Fro...)</span>
+                <span class="method-start">3700785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3701184 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">3701998 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">LogIn([TestResult name=TS25_01_Verifying_the_advanced_search_functionality status=SUCCESS method=TS25_Admi...)</span>
+                <span class="method-start">3711211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS25_01_Verifying_the_advanced_search_functionality</span>
+                <span class="method-start">3711211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout([TestResult name=TS25_01_Verifying_the_advanced_search_functionality status=SUCCESS method=TS25_Admi...)</span>
+                <span class="method-start">3800842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3801282 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TS21_DataSet_Reset</span>
+                <span class="method-start">-1557300755245 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

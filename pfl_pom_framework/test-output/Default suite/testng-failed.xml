@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store">
+        <methods>
+          <include name="Logout"/>
+          <include name="LogIn"/>
+          <include name="TS23_DataSet_Reset"/>
+          <include name="setUp"/>
+          <include name="TS23_DataSet_Creation"/>
+          <include name="tearDown"/>
+          <include name="TS23_01_Verifying_the_remove_user_into_the_Store"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PFL_Smoke_Suite">
+	<listeners>
+        <listener class-name="com.pfl.automation.report.ExtentReporterNG" />
+        <listener class-name="com.pfl.automation.report.CustomTestNGReporter" />
+        <listener class-name="com.pfl.automation.utils.reruntest.RetryListener"/>
+        <listener class-name="com.pfl.automation.utils.reruntest.TestListener"/>
+    </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS11_advance_search_functionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

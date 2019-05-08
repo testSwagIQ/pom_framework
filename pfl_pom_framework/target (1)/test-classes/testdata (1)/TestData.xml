@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+    <url-name>
+        <url>http://www.google.com</url>
+    </url-name>
+
+    <user-details>
+        <email>test203@gmail.com</email>
+        <phone>(555)5559292</phone>
+        <folder>inbox</folder>
+    </user-details>
+    
+    
+	<TestCase15>
+		<tstMsg>element found</tstMsg>
+		<first_n_value>Ramesh kumar</first_n_value>
+		<last_n_value>sharma</last_n_value>
+		<mailing_address_street>4/16 kcc nagar, ajmer road
+		</mailing_address_street>
+		<mailing_address_zipcode>323001</mailing_address_zipcode>
+		<mailing_country_value>India</mailing_country_value>
+		<phone_no>9342323333</phone_no>
+		<state>Montana</state>
+		<city>Livingston</city>
+		<admin_bd_auto_program_1>PFL_Auto_Program1</admin_bd_auto_program_1>
+		<admin_bd_auto_product_1>PFL_Auto_Product1</admin_bd_auto_product_1>
+	</TestCase15>
+	
+	<TestCase15>
+		<licensename>user_4, Automation</licensename>
+	</TestCase15>
+</TestData> 

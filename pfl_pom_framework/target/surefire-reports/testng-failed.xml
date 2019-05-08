@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.pfl.automation.report.ExtentReporterNG"/>
+    <listener class-name="com.pfl.automation.report.CustomTestNGReporter"/>
+  </listeners>
+  <test name="TestCase2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS02_Administration_verify_program">
+        <methods>
+          <include name="Logout"/>
+          <include name="LogIn"/>
+          <include name="setUp"/>
+          <include name="TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS02_Administration_verify_program -->
+    </classes>
+  </test> <!-- TestCase2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

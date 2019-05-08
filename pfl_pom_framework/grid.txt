@@ -1,0 +1,32 @@
+Configure Hub->
+place hub C:\ following:-
+	-chromedriver.exe and others as well
+	-java-standalone.jar file
+	-hub.json
+	-launchhub.bat
+	-Open Command prompt and execute "launchhub.bat"
+		java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig C:\hub.json
+
+To See the Node and Hub Configurations:-
+http://localhost:4444/grid/console
+
+Configure Node 1->
+Place node 1 C:\ following:-
+	-chromedriver.exe and others as well
+	-java-standalone.jar file
+	-node1.json
+	-launchnode1.bat
+	-Open Command prompt and execute "launchnode1.bat"
+java -jar C:\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\node1.json
+
+
+Configure Node 2->
+Place node 1 C:\ following:-
+	-chromedriver.exe and others as well
+	-java-standalone.jar file
+	-node2.json
+	-launchnode2.bat
+	-Open Command prompt and execute "launchnode2.bat"
+			java -jar C:\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\node1.json
+			or
+			java -Dwebdriver.gecko.driver=F:\drivers\geckodriver.exe -Dwebdriver.chrome.driver=F:\drivers\chromedriver.exe -jar jars/selenium-server-standalone-3.0.1.jar -role node  -nodeConfig node2.json

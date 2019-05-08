@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.pfl.automation.report.ExtentReporterNG"/>
+    <listener class-name="com.pfl.automation.report.CustomTestNGReporter"/>
+  </listeners>
+  <test thread-count="5" name="TestCase6(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program">
+        <methods>
+          <include name="Logout"/>
+          <include name="LogIn"/>
+          <include name="TS06_01_verifying_send_swag_with_campaign_association"/>
+          <include name="TS06_DataSet_Reset"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TS06_DataSet_Creation"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS06_Administration_role_based_program -->
+    </classes>
+  </test> <!-- TestCase6(failed) -->
+  <test thread-count="5" name="TestCase7(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation">
+        <methods>
+          <include name="program_error_validation"/>
+          <include name="Logout"/>
+          <include name="LogIn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation -->
+    </classes>
+  </test> <!-- TestCase7(failed) -->
+  <test thread-count="5" name="TestCase11(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS11_advance_search_functionality">
+        <methods>
+          <include name="Logout"/>
+          <include name="LogIn"/>
+          <include name="TS11_02_Verify_simple_search_and_advance_search_on_license_page"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS11_advance_search_functionality -->
+    </classes>
+  </test> <!-- TestCase11(failed) -->
+  <test thread-count="5" name="TestCase21(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag">
+        <methods>
+          <include name="Logout"/>
+          <include name="TS21_DataSet_Creation"/>
+          <include name="LogIn"/>
+          <include name="TS21_01_Verifying_the_activation_of_program_by_sending_swag"/>
+          <include name="TS21_02_Verifying_the_deactivation_of_program_by_sending_swag"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TS21_DataSet_Reset"/>
+        </methods>
+      </class> <!-- com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag -->
+    </classes>
+  </test> <!-- TestCase21(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2" parallel="false">
+  <test name="Suite2Test">
+    <classes>
+      <class name="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account"/>
+    </classes>
+  </test>
+</suite>

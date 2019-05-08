@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="6" ignored="0" total="35" passed="28">
+  <reporter-output>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3804274" started-at="2019-05-08T07:32:35Z" finished-at="2019-05-08T08:35:59Z">
+    <groups>
+    </groups>
+    <test name="TestCase2" duration-ms="106821" started-at="2019-05-08T07:32:35Z" finished-at="2019-05-08T07:34:22Z">
+      <class name="com.pfl.automation.org62.testcases.TS02_Administration_verify_program">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a]" name="setUp" is-config="true" duration-ms="10169" started-at="2019-05-08T07:32:35Z" finished-at="2019-05-08T07:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a]" name="LogIn" is-config="true" duration-ms="1" started-at="2019-05-08T07:32:45Z" finished-at="2019-05-08T07:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user status=SUCCESS method=TS02_Administration_verify_program.TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user()[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user()[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a]" name="TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user" duration-ms="95468" started-at="2019-05-08T07:32:45Z" finished-at="2019-05-08T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a]" name="Logout" is-config="true" duration-ms="438" started-at="2019-05-08T07:34:20Z" finished-at="2019-05-08T07:34:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user status=SUCCESS method=TS02_Administration_verify_program.TC01_Verify_base_program_Visible_Under_Send_Marketing_Material_program_associated_user()[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS02_Administration_verify_program@4973813a]" name="tearDown" is-config="true" duration-ms="718" started-at="2019-05-08T07:34:21Z" finished-at="2019-05-08T07:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS02_Administration_verify_program -->
+    </test> <!-- TestCase2 -->
+    <test name="TestCase3" duration-ms="434470" started-at="2019-05-08T07:34:22Z" finished-at="2019-05-08T07:41:36Z">
+      <class name="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="setUp" is-config="true" duration-ms="8612" started-at="2019-05-08T07:34:22Z" finished-at="2019-05-08T07:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:34:30Z" finished-at="2019-05-08T07:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_DataSet_Creation status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS03_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="TS03_DataSet_Creation" duration-ms="182039" started-at="2019-05-08T07:34:30Z" finished-at="2019-05-08T07:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS03_DataSet_Creation -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="Logout" is-config="true" duration-ms="436" started-at="2019-05-08T07:37:32Z" finished-at="2019-05-08T07:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_DataSet_Creation status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:37:33Z" finished-at="2019-05-08T07:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_01_verifying_contact_address_send_swag status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_01_verifying_contact_address_send_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS03_01_verifying_contact_address_send_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="TS03_01_verifying_contact_address_send_swag" duration-ms="96410" started-at="2019-05-08T07:37:33Z" depends-on-methods="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account.TS03_DataSet_Creation" finished-at="2019-05-08T07:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS03_01_verifying_contact_address_send_swag -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="Logout" is-config="true" duration-ms="388" started-at="2019-05-08T07:39:09Z" finished-at="2019-05-08T07:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_01_verifying_contact_address_send_swag status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_01_verifying_contact_address_send_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:39:10Z" finished-at="2019-05-08T07:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_02_verifying_account_address_end_swag status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_02_verifying_account_address_end_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS03_02_verifying_account_address_end_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="TS03_02_verifying_account_address_end_swag" duration-ms="84034" started-at="2019-05-08T07:39:10Z" depends-on-methods="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account.TS03_DataSet_Creation" finished-at="2019-05-08T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS03_02_verifying_account_address_end_swag -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="Logout" is-config="true" duration-ms="388" started-at="2019-05-08T07:40:34Z" finished-at="2019-05-08T07:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_02_verifying_account_address_end_swag status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_02_verifying_account_address_end_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="TS03_DataReset()[pri:3, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="TS03_DataReset" duration-ms="60976" started-at="2019-05-08T07:40:34Z" depends-on-methods="com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account.TS03_DataSet_Creation" finished-at="2019-05-08T07:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS03_DataReset -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:40:34Z" finished-at="2019-05-08T07:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_DataReset status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_DataReset()[pri:3, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="Logout" is-config="true" duration-ms="321" started-at="2019-05-08T07:41:35Z" finished-at="2019-05-08T07:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS03_DataReset status=SUCCESS method=TS03_Verify_order_on_contact_and_account.TS03_DataReset()[pri:3, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account@64729b1e]" name="tearDown" is-config="true" duration-ms="816" started-at="2019-05-08T07:41:35Z" finished-at="2019-05-08T07:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS03_Verify_order_on_contact_and_account -->
+    </test> <!-- TestCase3 -->
+    <test name="TestCase4" duration-ms="351871" started-at="2019-05-08T07:41:36Z" finished-at="2019-05-08T07:47:28Z">
+      <class name="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="setUp" is-config="true" duration-ms="8421" started-at="2019-05-08T07:41:36Z" finished-at="2019-05-08T07:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:41:44Z" finished-at="2019-05-08T07:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_DataSet_Creation status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS04_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="TS04_DataSet_Creation" duration-ms="188700" started-at="2019-05-08T07:41:44Z" finished-at="2019-05-08T07:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS04_DataSet_Creation -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="Logout" is-config="true" duration-ms="315" started-at="2019-05-08T07:44:53Z" finished-at="2019-05-08T07:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_DataSet_Creation status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="TS04_1_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="TS04_1_verifying_send_swag_with_campaign_association" duration-ms="92968" started-at="2019-05-08T07:44:54Z" depends-on-methods="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated.TS04_DataSet_Creation" finished-at="2019-05-08T07:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS04_1_verifying_send_swag_with_campaign_association -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:44:54Z" finished-at="2019-05-08T07:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_1_verifying_send_swag_with_campaign_association status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_1_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="Logout" is-config="true" duration-ms="340" started-at="2019-05-08T07:46:26Z" finished-at="2019-05-08T07:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_1_verifying_send_swag_with_campaign_association status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_1_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:46:27Z" finished-at="2019-05-08T07:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_DataSet_Reset status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS04_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="TS04_DataSet_Reset" duration-ms="59928" started-at="2019-05-08T07:46:27Z" depends-on-methods="com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated.TS04_DataSet_Creation" finished-at="2019-05-08T07:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS04_DataSet_Reset -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="Logout" is-config="true" duration-ms="392" started-at="2019-05-08T07:47:27Z" finished-at="2019-05-08T07:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS04_DataSet_Reset status=SUCCESS method=TS04_Administration_Campaign_Associated.TS04_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated@5f282abb]" name="tearDown" is-config="true" duration-ms="772" started-at="2019-05-08T07:47:27Z" finished-at="2019-05-08T07:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS04_Administration_Campaign_Associated -->
+    </test> <!-- TestCase4 -->
+    <test name="TestCase5" duration-ms="462936" started-at="2019-05-08T07:47:28Z" finished-at="2019-05-08T07:55:11Z">
+      <class name="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="setUp" is-config="true" duration-ms="10169" started-at="2019-05-08T07:47:28Z" finished-at="2019-05-08T07:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TS05_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="TS05_DataSet_Creation" duration-ms="251383" started-at="2019-05-08T07:47:38Z" finished-at="2019-05-08T07:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS05_DataSet_Creation -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:47:38Z" finished-at="2019-05-08T07:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_DataSet_Creation status=SUCCESS method=TS05_Administration_Multiple_product.TS05_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="Logout" is-config="true" duration-ms="388" started-at="2019-05-08T07:51:50Z" finished-at="2019-05-08T07:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_DataSet_Creation status=SUCCESS method=TS05_Administration_Multiple_product.TS05_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="TS05_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="TS05_01_verifying_send_swag_with_campaign_association" duration-ms="138107" started-at="2019-05-08T07:51:50Z" depends-on-methods="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product.TS05_DataSet_Creation" finished-at="2019-05-08T07:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS05_01_verifying_send_swag_with_campaign_association -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:51:50Z" finished-at="2019-05-08T07:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_01_verifying_send_swag_with_campaign_association status=SUCCESS method=TS05_Administration_Multiple_product.TS05_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="Logout" is-config="true" duration-ms="398" started-at="2019-05-08T07:54:08Z" finished-at="2019-05-08T07:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_01_verifying_send_swag_with_campaign_association status=SUCCESS method=TS05_Administration_Multiple_product.TS05_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:54:08Z" finished-at="2019-05-08T07:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_DataSet_Reset status=SUCCESS method=TS05_Administration_Multiple_product.TS05_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS05_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="TS05_DataSet_Reset" duration-ms="61297" started-at="2019-05-08T07:54:08Z" depends-on-methods="com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product.TS05_DataSet_Creation" finished-at="2019-05-08T07:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS05_DataSet_Reset -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="Logout" is-config="true" duration-ms="414" started-at="2019-05-08T07:55:10Z" finished-at="2019-05-08T07:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS05_DataSet_Reset status=SUCCESS method=TS05_Administration_Multiple_product.TS05_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product@15d0c81b]" name="tearDown" is-config="true" duration-ms="755" started-at="2019-05-08T07:55:10Z" finished-at="2019-05-08T07:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS05_Administration_Multiple_product -->
+    </test> <!-- TestCase5 -->
+    <test name="TestCase6" duration-ms="321859" started-at="2019-05-08T07:55:11Z" finished-at="2019-05-08T08:00:33Z">
+      <class name="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="setUp" is-config="true" duration-ms="8651" started-at="2019-05-08T07:55:11Z" finished-at="2019-05-08T07:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="LogIn" is-config="true" duration-ms="1" started-at="2019-05-08T07:55:20Z" finished-at="2019-05-08T07:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_DataSet_Creation status=SUCCESS method=TS06_Administration_role_based_program.TS06_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS06_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="TS06_DataSet_Creation" duration-ms="165695" started-at="2019-05-08T07:55:20Z" finished-at="2019-05-08T07:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS06_DataSet_Creation -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="Logout" is-config="true" duration-ms="368" started-at="2019-05-08T07:58:05Z" finished-at="2019-05-08T07:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_DataSet_Creation status=SUCCESS method=TS06_Administration_role_based_program.TS06_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="TS06_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="TS06_01_verifying_send_swag_with_campaign_association" duration-ms="120325" started-at="2019-05-08T07:58:06Z" depends-on-methods="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_DataSet_Creation" finished-at="2019-05-08T08:00:06Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),'You will receive a follow-up task once it has been delivered')] (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),'You will receive a follow-up task once it has been delivered')] (tried for 50 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+at com.pfl.automation.base.BasePage.isElementVisible(BasePage.java:297)
+at com.pfl.automation.org62.pages.SwagIQPage.order_confirmation_msg(SwagIQPage.java:82)
+at com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_01_verifying_send_swag_with_campaign_association(TS06_Administration_role_based_program.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'You will receive a follow-up task once it has been delivered')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+*** Element info: {Using=xpath, value=//div[contains(text(),'You will receive a follow-up task once it has been delivered')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS06_01_verifying_send_swag_with_campaign_association -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T07:58:06Z" finished-at="2019-05-08T07:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_01_verifying_send_swag_with_campaign_association status=FAILURE method=TS06_Administration_role_based_program.TS06_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="Logout" is-config="true" duration-ms="21754" started-at="2019-05-08T08:00:06Z" finished-at="2019-05-08T08:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_01_verifying_send_swag_with_campaign_association status=FAILURE method=TS06_Administration_role_based_program.TS06_01_verifying_send_swag_with_campaign_association()[pri:1, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="TS06_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="TS06_DataSet_Reset" duration-ms="5030" started-at="2019-05-08T08:00:28Z" depends-on-methods="com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_DataSet_Creation" finished-at="2019-05-08T08:00:33Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+*** Element info: {Using=xpath, value=//input[@type='email'][@name='username']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+*** Element info: {Using=xpath, value=//input[@type='email'][@name='username']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+at com.pfl.automation.base.BasePage.enterText(BasePage.java:235)
+at com.pfl.automation.org62.pages.LoginPage.logintoapplication(LoginPage.java:62)
+at com.pfl.automation.org62.testcases.TS06_Administration_role_based_program.TS06_DataSet_Reset(TS06_Administration_role_based_program.java:57)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS06_DataSet_Reset -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:00:28Z" finished-at="2019-05-08T08:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_DataSet_Reset status=FAILURE method=TS06_Administration_role_based_program.TS06_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="FAIL" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="Logout" is-config="true" duration-ms="6" started-at="2019-05-08T08:00:33Z" finished-at="2019-05-08T08:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS06_DataSet_Reset status=FAILURE method=TS06_Administration_role_based_program.TS06_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at com.pfl.automation.org62.pages.HomePage.logout(HomePage.java:26)
+at com.pfl.automation.base.BaseTest.Logout(BaseTest.java:147)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS06_Administration_role_based_program@2d8f65a4]" name="tearDown" is-config="true" duration-ms="16" started-at="2019-05-08T08:00:33Z" finished-at="2019-05-08T08:00:33Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50672}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2bc65799e5431c5dd38addb34c04c097
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.pfl.automation.base.BaseTest.closebrowser(BaseTest.java:556)
+at com.pfl.automation.base.BaseTest.tearDown(BaseTest.java:154)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS06_Administration_role_based_program -->
+    </test> <!-- TestCase6 -->
+    <test name="TestCase7" duration-ms="195322" started-at="2019-05-08T08:00:33Z" finished-at="2019-05-08T08:03:48Z">
+      <class name="com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec]" name="setUp" is-config="true" duration-ms="7887" started-at="2019-05-08T08:00:33Z" finished-at="2019-05-08T08:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="program_error_validation()[pri:1, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec]" name="program_error_validation" duration-ms="165323" started-at="2019-05-08T08:00:41Z" finished-at="2019-05-08T08:03:26Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <i class="far fa-sync-alt text-success"></i> is not clickable at point (638, 275). Other element would receive the click: <div ng-show="message.visible" class="overlay overlay-white" style="">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50804}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 8a9dc8fe75dda5f0aeb6a25a5f6d65b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <i class="far fa-sync-alt text-success"></i> is not clickable at point (638, 275). Other element would receive the click: <div ng-show="message.visible" class="overlay overlay-white" style="">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50804}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 8a9dc8fe75dda5f0aeb6a25a5f6d65b6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.pfl.automation.org62.pages.AdminPage.set_user_budget(AdminPage.java:302)
+at com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation.program_error_validation(TS07_Administration_program_error_validation.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- program_error_validation -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:00:41Z" finished-at="2019-05-08T08:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=program_error_validation status=FAILURE method=TS07_Administration_program_error_validation.program_error_validation()[pri:1, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec]" name="tearDown" is-config="true" duration-ms="22110" started-at="2019-05-08T08:03:26Z" finished-at="2019-05-08T08:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec]" name="Logout" is-config="true" duration-ms="0" started-at="2019-05-08T08:03:48Z" finished-at="2019-05-08T08:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=program_error_validation status=FAILURE method=TS07_Administration_program_error_validation.program_error_validation()[pri:1, instance:com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation@704a52ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at com.pfl.automation.org62.pages.HomePage.logout(HomePage.java:26)
+at com.pfl.automation.base.BaseTest.Logout(BaseTest.java:147)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS07_Administration_program_error_validation -->
+    </test> <!-- TestCase7 -->
+    <test name="TestCase8" duration-ms="140002" started-at="2019-05-08T08:03:48Z" finished-at="2019-05-08T08:06:08Z">
+      <class name="com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="setUp" is-config="true" duration-ms="7215" started-at="2019-05-08T08:03:48Z" finished-at="2019-05-08T08:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="LogIn" is-config="true" duration-ms="1" started-at="2019-05-08T08:03:55Z" finished-at="2019-05-08T08:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assign.TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab()[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab()[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab" duration-ms="84167" started-at="2019-05-08T08:03:55Z" finished-at="2019-05-08T08:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="Logout" is-config="true" duration-ms="383" started-at="2019-05-08T08:05:20Z" finished-at="2019-05-08T08:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assign.TS_08_01_Verify_the_header_SwagIQ_Licenses_Administration_of_License_tab()[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:05:20Z" finished-at="2019-05-08T08:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_08_DataReset status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assign.TS_08_DataReset()[pri:1, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_08_DataReset()[pri:1, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="TS_08_DataReset" duration-ms="44960" started-at="2019-05-08T08:05:20Z" finished-at="2019-05-08T08:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_08_DataReset -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="Logout" is-config="true" duration-ms="270" started-at="2019-05-08T08:06:05Z" finished-at="2019-05-08T08:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_08_DataReset status=SUCCESS method=TS_08_verify_changes_when_swagig_license_assign.TS_08_DataReset()[pri:1, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign@458c1321]" name="tearDown" is-config="true" duration-ms="3005" started-at="2019-05-08T08:06:05Z" finished-at="2019-05-08T08:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS_08_verify_changes_when_swagig_license_assign -->
+    </test> <!-- TestCase8 -->
+    <test name="TestCase11" duration-ms="131891" started-at="2019-05-08T08:06:08Z" finished-at="2019-05-08T08:08:20Z">
+      <class name="com.pfl.automation.org62.testcases.TS11_advance_search_functionality">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="setUp" is-config="true" duration-ms="8524" started-at="2019-05-08T08:06:08Z" finished-at="2019-05-08T08:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TS11_01_Verify_license_page()[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="TS11_01_Verify_license_page" duration-ms="58669" started-at="2019-05-08T08:06:17Z" finished-at="2019-05-08T08:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS11_01_Verify_license_page -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:06:17Z" finished-at="2019-05-08T08:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS11_01_Verify_license_page status=SUCCESS method=TS11_advance_search_functionality.TS11_01_Verify_license_page()[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="Logout" is-config="true" duration-ms="317" started-at="2019-05-08T08:07:15Z" finished-at="2019-05-08T08:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS11_01_Verify_license_page status=SUCCESS method=TS11_advance_search_functionality.TS11_01_Verify_license_page()[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="TS11_02_Verify_simple_search_and_advance_search_on_license_page()[pri:1, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="TS11_02_Verify_simple_search_and_advance_search_on_license_page" duration-ms="42504" started-at="2019-05-08T08:07:16Z" finished-at="2019-05-08T08:07:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [user_4, Automation] but found [  user_4, Automation]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [user_4, Automation] but found [  user_4, Automation]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.pfl.automation.org62.pages.LicensePage.getNameText(LicensePage.java:92)
+at com.pfl.automation.org62.testcases.TS11_advance_search_functionality.TS11_02_Verify_simple_search_and_advance_search_on_license_page(TS11_advance_search_functionality.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS11_02_Verify_simple_search_and_advance_search_on_license_page -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:07:16Z" finished-at="2019-05-08T08:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS11_02_Verify_simple_search_and_advance_search_on_license_page status=FAILURE method=TS11_advance_search_functionality.TS11_02_Verify_simple_search_and_advance_search_on_license_page()[pri:1, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="Logout" is-config="true" duration-ms="21766" started-at="2019-05-08T08:07:58Z" finished-at="2019-05-08T08:08:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS11_02_Verify_simple_search_and_advance_search_on_license_page status=FAILURE method=TS11_advance_search_functionality.TS11_02_Verify_simple_search_and_advance_search_on_license_page()[pri:1, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS11_advance_search_functionality@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="110" started-at="2019-05-08T08:08:20Z" finished-at="2019-05-08T08:08:20Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51044}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c78563ae3c3a6ebcf7b5f70d7d857ece]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51044}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c78563ae3c3a6ebcf7b5f70d7d857ece
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.pfl.automation.base.BaseTest.closebrowser(BaseTest.java:556)
+at com.pfl.automation.base.BaseTest.tearDown(BaseTest.java:154)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS11_advance_search_functionality -->
+    </test> <!-- TestCase11 -->
+    <test name="TestCase12" duration-ms="93109" started-at="2019-05-08T08:08:20Z" finished-at="2019-05-08T08:09:53Z">
+      <class name="com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e]" name="setUp" is-config="true" duration-ms="7698" started-at="2019-05-08T08:08:20Z" finished-at="2019-05-08T08:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e]" name="TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality" duration-ms="84313" started-at="2019-05-08T08:08:28Z" finished-at="2019-05-08T08:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:08:28Z" finished-at="2019-05-08T08:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality status=SUCCESS method=TS12_Verfying_license_tab_enable_checkbox.TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e]" name="Logout" is-config="true" duration-ms="353" started-at="2019-05-08T08:09:52Z" finished-at="2019-05-08T08:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality status=SUCCESS method=TS12_Verfying_license_tab_enable_checkbox.TS12_01_Verify_clicking_select_all_enabled_checkbox_on_Licenses_page_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox@3043fe0e]" name="tearDown" is-config="true" duration-ms="743" started-at="2019-05-08T08:09:52Z" finished-at="2019-05-08T08:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS12_Verfying_license_tab_enable_checkbox -->
+    </test> <!-- TestCase12 -->
+    <test name="TestCase13" duration-ms="138816" started-at="2019-05-08T08:09:53Z" finished-at="2019-05-08T08:12:12Z">
+      <class name="com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19]" name="setUp" is-config="true" duration-ms="8936" started-at="2019-05-08T08:09:53Z" finished-at="2019-05-08T08:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:10:02Z" finished-at="2019-05-08T08:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration status=SUCCESS method=TS_13_verifying_product_configuration.TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration()[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration()[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19]" name="TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration" duration-ms="128843" started-at="2019-05-08T08:10:02Z" finished-at="2019-05-08T08:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19]" name="Logout" is-config="true" duration-ms="289" started-at="2019-05-08T08:12:11Z" finished-at="2019-05-08T08:12:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration status=SUCCESS method=TS_13_verifying_product_configuration.TS_13_01_Verify_Product_Configuration_Display_Name_or_Quantity_Under_Product_Administration()[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration@480bdb19]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-05-08T08:12:11Z" finished-at="2019-05-08T08:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS_13_verifying_product_configuration -->
+    </test> <!-- TestCase13 -->
+    <test name="TestCase15" duration-ms="212768" started-at="2019-05-08T08:12:12Z" finished-at="2019-05-08T08:15:45Z">
+      <class name="com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b]" name="setUp" is-config="true" duration-ms="8447" started-at="2019-05-08T08:12:12Z" finished-at="2019-05-08T08:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:12:20Z" finished-at="2019-05-08T08:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen status=SUCCESS method=TS_15_contact_blankaddress_send_swag_error.TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b]" name="TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen" duration-ms="201001" started-at="2019-05-08T08:12:20Z" finished-at="2019-05-08T08:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b]" name="Logout" is-config="true" duration-ms="305" started-at="2019-05-08T08:15:41Z" finished-at="2019-05-08T08:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen status=SUCCESS method=TS_15_contact_blankaddress_send_swag_error.TS_15_01_Verify_that_validation_message_displayed_to_user_if_no_program_is_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error@7e2d773b]" name="tearDown" is-config="true" duration-ms="3014" started-at="2019-05-08T08:15:42Z" finished-at="2019-05-08T08:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS_15_contact_blankaddress_send_swag_error -->
+    </test> <!-- TestCase15 -->
+    <test name="TestCase16" duration-ms="376258" started-at="2019-05-08T08:15:45Z" finished-at="2019-05-08T08:22:01Z">
+      <class name="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="setUp" is-config="true" duration-ms="8003" started-at="2019-05-08T08:15:45Z" finished-at="2019-05-08T08:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:15:53Z" finished-at="2019-05-08T08:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_DataSet_Creation status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_16_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="TS_16_DataSet_Creation" duration-ms="181956" started-at="2019-05-08T08:15:53Z" finished-at="2019-05-08T08:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_16_DataSet_Creation -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="Logout" is-config="true" duration-ms="403" started-at="2019-05-08T08:18:55Z" finished-at="2019-05-08T08:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_DataSet_Creation status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="TS_16_01_Contact_length_validation_on_custom_address()[pri:1, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="TS_16_01_Contact_length_validation_on_custom_address" duration-ms="125479" started-at="2019-05-08T08:18:55Z" depends-on-methods="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Creation" finished-at="2019-05-08T08:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_16_01_Contact_length_validation_on_custom_address -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:18:55Z" finished-at="2019-05-08T08:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_01_Contact_length_validation_on_custom_address status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_01_Contact_length_validation_on_custom_address()[pri:1, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="Logout" is-config="true" duration-ms="372" started-at="2019-05-08T08:21:01Z" finished-at="2019-05-08T08:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_01_Contact_length_validation_on_custom_address status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_01_Contact_length_validation_on_custom_address()[pri:1, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:21:01Z" finished-at="2019-05-08T08:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_DataSet_Reset status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_16_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="TS_16_DataSet_Reset" duration-ms="58953" started-at="2019-05-08T08:21:01Z" depends-on-methods="com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Creation" finished-at="2019-05-08T08:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_16_DataSet_Reset -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="Logout" is-config="true" duration-ms="322" started-at="2019-05-08T08:22:00Z" finished-at="2019-05-08T08:22:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_16_DataSet_Reset status=SUCCESS method=TS16_Contact_length_validation_on_custom_address.TS_16_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address@631330c]" name="tearDown" is-config="true" duration-ms="742" started-at="2019-05-08T08:22:00Z" finished-at="2019-05-08T08:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS16_Contact_length_validation_on_custom_address -->
+    </test> <!-- TestCase16 -->
+    <test name="TestCase17" duration-ms="97867" started-at="2019-05-08T08:22:01Z" finished-at="2019-05-08T08:23:39Z">
+      <class name="com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475]" name="setUp" is-config="true" duration-ms="8366" started-at="2019-05-08T08:22:01Z" finished-at="2019-05-08T08:22:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact()[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475]" name="TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact" duration-ms="88459" started-at="2019-05-08T08:22:09Z" finished-at="2019-05-08T08:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:22:09Z" finished-at="2019-05-08T08:22:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact status=SUCCESS method=TS17_Verify_Do_Not_Swag.TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact()[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475]" name="Logout" is-config="true" duration-ms="332" started-at="2019-05-08T08:23:38Z" finished-at="2019-05-08T08:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact status=SUCCESS method=TS17_Verify_Do_Not_Swag.TC17_01_Verify_User_not_able_Send_Swag_Do_Not_Swag_field_enabled_for_Contact()[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag@37d31475]" name="tearDown" is-config="true" duration-ms="708" started-at="2019-05-08T08:23:38Z" finished-at="2019-05-08T08:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS17_Verify_Do_Not_Swag -->
+    </test> <!-- TestCase17 -->
+    <test name="TestCase20" duration-ms="100539" started-at="2019-05-08T08:23:39Z" finished-at="2019-05-08T08:25:19Z">
+      <class name="com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39]" name="setUp" is-config="true" duration-ms="10008" started-at="2019-05-08T08:23:39Z" finished-at="2019-05-08T08:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39]" name="LogIn" is-config="true" duration-ms="1" started-at="2019-05-08T08:23:49Z" finished-at="2019-05-08T08:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen status=SUCCESS method=TS_20_send_swag_validation_message.TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39]" name="TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen" duration-ms="89314" started-at="2019-05-08T08:23:49Z" finished-at="2019-05-08T08:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39]" name="Logout" is-config="true" duration-ms="467" started-at="2019-05-08T08:25:18Z" finished-at="2019-05-08T08:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen status=SUCCESS method=TS_20_send_swag_validation_message.TS_20_01_Verify_validation_message_displayed_user_if_no_program_associated_to_user_on_send_swag_screen()[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message@587d1d39]" name="tearDown" is-config="true" duration-ms="749" started-at="2019-05-08T08:25:19Z" finished-at="2019-05-08T08:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS_20_send_swag_validation_message -->
+    </test> <!-- TestCase20 -->
+    <test name="TestCase21" duration-ms="287283" started-at="2019-05-08T08:25:19Z" finished-at="2019-05-08T08:30:07Z">
+      <class name="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="setUp" is-config="true" duration-ms="8686" started-at="2019-05-08T08:25:19Z" finished-at="2019-05-08T08:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TS21_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="TS21_DataSet_Creation" duration-ms="184467" started-at="2019-05-08T08:25:28Z" finished-at="2019-05-08T08:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS21_DataSet_Creation -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:25:28Z" finished-at="2019-05-08T08:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_DataSet_Creation status=SUCCESS method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="Logout" is-config="true" duration-ms="337" started-at="2019-05-08T08:28:33Z" finished-at="2019-05-08T08:28:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_DataSet_Creation status=SUCCESS method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="FAIL" signature="TS21_01_Verifying_the_activation_of_program_by_sending_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="TS21_01_Verifying_the_activation_of_program_by_sending_swag" duration-ms="66912" started-at="2019-05-08T08:28:33Z" depends-on-methods="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_DataSet_Creation" finished-at="2019-05-08T08:29:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(), 'Enable-disable_auto_program1557300755219')]/ancestor::div[@class = 'box-title']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//label[contains(text(), 'Enable-disable_auto_program1557300755219')]/ancestor::div[@class = 'box-title']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(), 'Enable-disable_auto_program1557300755219')]/ancestor::div[@class = 'box-title']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//label[contains(text(), 'Enable-disable_auto_program1557300755219')]/ancestor::div[@class = 'box-title']}
+at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pfl.automation.org62.pages.SalesforcePage.click_program_on_send_swag_screen(SalesforcePage.java:220)
+at com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_01_Verifying_the_activation_of_program_by_sending_swag(TS21_Enable_Disable_State_Of_Program_On_Send_Swag.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS21_01_Verifying_the_activation_of_program_by_sending_swag -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:28:33Z" finished-at="2019-05-08T08:28:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_01_Verifying_the_activation_of_program_by_sending_swag status=FAILURE method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_01_Verifying_the_activation_of_program_by_sending_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="Logout" is-config="true" duration-ms="21792" started-at="2019-05-08T08:29:40Z" finished-at="2019-05-08T08:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_01_Verifying_the_activation_of_program_by_sending_swag status=FAILURE method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_01_Verifying_the_activation_of_program_by_sending_swag()[pri:1, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:30:02Z" finished-at="2019-05-08T08:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_02_Verifying_the_deactivation_of_program_by_sending_swag status=FAILURE method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_02_Verifying_the_deactivation_of_program_by_sending_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="FAIL" signature="TS21_02_Verifying_the_deactivation_of_program_by_sending_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="TS21_02_Verifying_the_deactivation_of_program_by_sending_swag" duration-ms="5031" started-at="2019-05-08T08:30:02Z" depends-on-methods="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_DataSet_Creation" finished-at="2019-05-08T08:30:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//input[@type='email'][@name='username']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+*** Element info: {Using=xpath, value=//input[@type='email'][@name='username']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.pfl.automation.base.BasePage.findElement(BasePage.java:311)
+at com.pfl.automation.base.BasePage.enterText(BasePage.java:235)
+at com.pfl.automation.org62.pages.LoginPage.logintoapplication(LoginPage.java:62)
+at com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_02_Verifying_the_deactivation_of_program_by_sending_swag(TS21_Enable_Disable_State_Of_Program_On_Send_Swag.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS21_02_Verifying_the_deactivation_of_program_by_sending_swag -->
+        <test-method status="FAIL" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="Logout" is-config="true" duration-ms="12" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS21_02_Verifying_the_deactivation_of_program_by_sending_swag status=FAILURE method=TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_02_Verifying_the_deactivation_of_program_by_sending_swag()[pri:2, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at com.pfl.automation.org62.pages.HomePage.logout(HomePage.java:26)
+at com.pfl.automation.base.BaseTest.Logout(BaseTest.java:147)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="SKIP" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="Logout" is-config="true" duration-ms="0" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="SKIP" signature="TS21_DataSet_Reset()[pri:3, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="TS21_DataSet_Reset" duration-ms="0" started-at="2019-05-08T08:30:07Z" depends-on-methods="com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag.TS21_DataSet_Creation" finished-at="2019-05-08T08:30:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at com.pfl.automation.org62.pages.HomePage.logout(HomePage.java:26)
+at com.pfl.automation.base.BaseTest.Logout(BaseTest.java:147)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS21_DataSet_Reset -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="tearDown" is-config="true" duration-ms="16" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:30:07Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PFL-TEST', ip: '172.16.25.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Test\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2602a413e3059b758544e56061d86da4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.pfl.automation.base.BaseTest.closebrowser(BaseTest.java:556)
+at com.pfl.automation.base.BaseTest.tearDown(BaseTest.java:154)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag@7a9273a8]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS21_Enable_Disable_State_Of_Program_On_Send_Swag -->
+    </test> <!-- TestCase21 -->
+    <test name="TestCase23" duration-ms="249927" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:34:17Z">
+      <class name="com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="setUp" is-config="true" duration-ms="7577" started-at="2019-05-08T08:30:07Z" finished-at="2019-05-08T08:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TS23_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="TS23_DataSet_Creation" duration-ms="108172" started-at="2019-05-08T08:30:14Z" finished-at="2019-05-08T08:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS23_DataSet_Creation -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:30:14Z" finished-at="2019-05-08T08:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_DataSet_Creation status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="Logout" is-config="true" duration-ms="389" started-at="2019-05-08T08:32:03Z" finished-at="2019-05-08T08:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_DataSet_Creation status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_DataSet_Creation()[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:32:03Z" finished-at="2019-05-08T08:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_01_Verifying_the_remove_user_into_the_Store status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_01_Verifying_the_remove_user_into_the_Store()[pri:1, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS23_01_Verifying_the_remove_user_into_the_Store()[pri:1, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="TS23_01_Verifying_the_remove_user_into_the_Store" duration-ms="50237" started-at="2019-05-08T08:32:03Z" finished-at="2019-05-08T08:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS23_01_Verifying_the_remove_user_into_the_Store -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="Logout" is-config="true" duration-ms="457" started-at="2019-05-08T08:32:53Z" finished-at="2019-05-08T08:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_01_Verifying_the_remove_user_into_the_Store status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_01_Verifying_the_remove_user_into_the_Store()[pri:1, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:32:54Z" finished-at="2019-05-08T08:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_DataSet_Reset status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS23_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="TS23_DataSet_Reset" duration-ms="81902" started-at="2019-05-08T08:32:54Z" finished-at="2019-05-08T08:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS23_DataSet_Reset -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="Logout" is-config="true" duration-ms="399" started-at="2019-05-08T08:34:16Z" finished-at="2019-05-08T08:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS23_DataSet_Reset status=SUCCESS method=TS23_Administration_Verify_Remove_User_From_Store.TS23_DataSet_Reset()[pri:2, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store@7113b13f]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-05-08T08:34:16Z" finished-at="2019-05-08T08:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS23_Administration_Verify_Remove_User_From_Store -->
+    </test> <!-- TestCase23 -->
+    <test name="TestCase25" duration-ms="102290" started-at="2019-05-08T08:34:17Z" finished-at="2019-05-08T08:35:59Z">
+      <class name="com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b]" name="setUp" is-config="true" duration-ms="9212" started-at="2019-05-08T08:34:17Z" finished-at="2019-05-08T08:34:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b]" name="LogIn" is-config="true" duration-ms="0" started-at="2019-05-08T08:34:26Z" finished-at="2019-05-08T08:34:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS25_01_Verifying_the_advanced_search_functionality status=SUCCESS method=TS25_Administration_User_Advance_Search.TS25_01_Verifying_the_advanced_search_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="TS25_01_Verifying_the_advanced_search_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b]" name="TS25_01_Verifying_the_advanced_search_functionality" duration-ms="89618" started-at="2019-05-08T08:34:26Z" finished-at="2019-05-08T08:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS25_01_Verifying_the_advanced_search_functionality -->
+        <test-method status="PASS" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b]" name="Logout" is-config="true" duration-ms="440" started-at="2019-05-08T08:35:56Z" finished-at="2019-05-08T08:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS25_01_Verifying_the_advanced_search_functionality status=SUCCESS method=TS25_Administration_User_Advance_Search.TS25_01_Verifying_the_advanced_search_functionality()[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search@5bcea91b]" name="tearDown" is-config="true" duration-ms="2990" started-at="2019-05-08T08:35:56Z" finished-at="2019-05-08T08:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pfl.automation.org62.testcases.TS25_Administration_User_Advance_Search -->
+    </test> <!-- TestCase25 -->
+  </suite> <!-- Suite -->
+</testng-results>
