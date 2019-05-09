@@ -31,7 +31,7 @@ public class TS21_Enable_Disable_State_Of_Program_On_Send_Swag extends BaseTest 
 		homePage.logout(driver);
 	}
 	
-	@Test(priority=1, alwaysRun = true)
+	@Test(priority=1, dependsOnMethods = { "TS21_DataSet_Creation" })
 	public void TS21_01_Verifying_the_activation_of_program_by_sending_swag() throws Exception {
 		Log.startTestCase("TS21_01_Verifying_the_activation_of_program_by_sending_swag");
 		loginPage.logintoapplication(Constants.sfruser, Constants.sfrpass);
@@ -51,8 +51,9 @@ public class TS21_Enable_Disable_State_Of_Program_On_Send_Swag extends BaseTest 
 		Log.endTestCase("TS21_01_Verifying_the_activation_of_program_by_sending_swag");
 	}
 	
-	@Test(priority=2, alwaysRun = true)
+	@Test(priority=2, dependsOnMethods = { "TS21_DataSet_Creation" })
 	public void TS21_02_Verifying_the_deactivation_of_program_by_sending_swag() throws Exception {
+		Log.startTestCase("TS21_02_Verifying_the_deactivation_of_program_by_sending_swag");
 		loginPage.logintoapplication(Constants.sfruser, Constants.sfrpass);
 		salsesforcePage.open_tab(Constants.tab_swagiq_tools);
 		adminpage.click_program_admin_tile();
@@ -68,15 +69,16 @@ public class TS21_Enable_Disable_State_Of_Program_On_Send_Swag extends BaseTest 
 		salsesforcePage.use_this_address();
 		salsesforcePage.verify_inactiveprogram_on_contact_send_marketing_page(driver,program_name);
 		homePage.logout(driver);
+		Log.endTestCase("TS21_02_Verifying_the_deactivation_of_program_by_sending_swag");
 	}
 	
-	@Test(priority=3, alwaysRun = true)
+	@Test(priority=3, dependsOnMethods = { "TS21_DataSet_Creation" })
 	public void TS21_DataSet_Reset() throws Exception {
 		loginPage.logintoapplication(Constants.username, Constants.password);
 		salsesforcePage.open_tab(Constants.tab_contacts);
 		salsesforcePage.selectview(Constants.pfl_contact_view);
 		salsesforcePage.opencontact(Constants.con_bd_auto_contact_first_name, Constants.con_bd_auto_contact_last_name);
 		salsesforcePage.delete_order(admin_bd_auto_product_1, program_name, order_status);
-		//homePage.logout(driver);
+		homePage.logout(driver);
 	}
 }

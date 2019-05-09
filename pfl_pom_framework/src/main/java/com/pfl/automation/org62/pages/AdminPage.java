@@ -721,7 +721,8 @@ public class AdminPage extends BasePage {
 
 	public void click_on_program_from_search_result(WebDriver driver, String program_name) throws Exception {
 		switchToFrame(driver);
-		driver.findElement(By.xpath("//td[contains(.,'" + program_name + "')])[1]")).click();
+		clickElement(driver,By.xpath("(//td[contains(text(),'" + program_name + "')])[1]"));
+		//driver.findElement(By.xpath("//td[contains(.,'" + program_name + "')])[1]")).click();
 		driver.switchTo().defaultContent();
 
 	}
@@ -737,9 +738,9 @@ public class AdminPage extends BasePage {
 
 	public void verify_program_on_admin_page(WebDriver driver, String program_name) throws Exception {
 		switchToFrame(driver);
-		findElement(driver, admin_product_search_bar).click();
+		findElement(driver, search_bar_on_users_page).click();
 		enterText(driver, search_bar_on_users_page, program_name);
-		assertTrue(isElementVisible(driver, By.xpath("//td[contains(text(),'" + program_name + "')])[1]")));
+		assertTrue(isElementVisible(driver, By.xpath("(//td[contains(text(),'" + program_name + "')])[1]")));
 		driver.switchTo().defaultContent();
 	}
 
