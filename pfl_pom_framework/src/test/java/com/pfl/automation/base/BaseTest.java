@@ -117,6 +117,7 @@ public class BaseTest {
 	public void setUp() throws Exception {
 		callBasicConfigFiles();
 		//initBrowser();
+		openBrowser();
 		
 		//testngBrowserlaunch(browserName);
 		loginPage = new LoginPage(driver);
