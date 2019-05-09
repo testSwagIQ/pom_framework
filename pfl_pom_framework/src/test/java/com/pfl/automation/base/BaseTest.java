@@ -56,8 +56,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-
 import com.codepine.api.testrail.TestRail;
 import com.codepine.api.testrail.model.Case;
 import com.codepine.api.testrail.model.CaseField;
@@ -118,7 +116,7 @@ public class BaseTest {
 	//@Parameters(value={"browser"})
 	public void setUp() throws Exception {
 		callBasicConfigFiles();
-		initBrowser();
+		//initBrowser();
 		
 		//testngBrowserlaunch(browserName);
 		loginPage = new LoginPage(driver);
@@ -343,7 +341,7 @@ public class BaseTest {
 		log4j_config();
 	}
 	
-	public void initBrowser() throws FileNotFoundException, IOException, DocumentException {
+	/*public void initBrowser() throws FileNotFoundException, IOException, DocumentException {
 		if (!Constants.GRID_RUN) {
 			//Local Machine
 			openBrowserNormal();
@@ -351,7 +349,7 @@ public class BaseTest {
 			//Grid Machines
 			openBrowserGrid();
 		}
-	}
+	}*/
 	
 	public void openBrowserGrid() throws FileNotFoundException, IOException, DocumentException {
 		String browser = prop.getProperty("browser");
@@ -408,7 +406,7 @@ public class BaseTest {
 		System.out.println("Open Browser and Load the URL");
 	}
 
-	public void openBrowserNormal() throws FileNotFoundException, IOException, DocumentException {
+	public WebDriver openBrowser() throws FileNotFoundException, IOException, DocumentException {
 		Log.info("Open Browser Successfully");
 		Reporter.log("Open Browser Successfully");
 
@@ -520,6 +518,8 @@ public class BaseTest {
 		openURL();
 		Log.info("URL load Successfully");
 		System.out.println("Open Browser and Load the URL");
+		
+		return driver;
 	}
 
 	public void openURL() {
